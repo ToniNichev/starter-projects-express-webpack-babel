@@ -8,6 +8,7 @@
     "build-assets": "NODE_ENV=development webpack --config ./webpack.assets.config.js",    
     "build-server": "NODE_ENV=development webpack --config ./webpack.server.config.js",
     "start-server": "node --inspect-brk ./dist-folder/server-bundle.js",
+    
     "start": "yarn clean;yarn build-assets;yarn build-server;yarn start-server"
   },
   "dependencies": {

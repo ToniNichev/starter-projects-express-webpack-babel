@@ -1,5 +1,10 @@
 export default {
 
-    sayHello: ('Say Hello!')
+    sayHello: ('Say Hello!'),
+
+    clickTest: () => {
+        debugger;
+        alert("componentOne clicked!");
+    }
 
 }
